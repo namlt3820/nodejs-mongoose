@@ -1,0 +1,26 @@
+{
+	"name": "node_mongoose",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint ./src --fix",
+		"format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
+		"style": "npm run format && npm run lint",
+		"start": "node ./src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mongoose": "^5.7.5"
+	},
+	"devDependencies": {
+		"eslint": "^6.5.1",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-config-prettier": "^6.4.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-prettier": "^3.1.1",
+		"prettier": "^1.18.2"
+	},
+	"description": ""
+}
